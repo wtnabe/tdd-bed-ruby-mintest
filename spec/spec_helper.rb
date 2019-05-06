@@ -1,6 +1,5 @@
 Dir.glob(File.dirname(__FILE__) + "/../lib/**/*.rb").each {|f| load f}
 
-require "minitest/spec"
 require "minitest/autorun"
 require "minitest-power_assert"
 require "minitest/reporters"
